@@ -2,3 +2,6 @@ body {
   color: #FF0000;
    background-color: #EEEEEE;    /* Light gray */
 }
+h1 {
+  font-size: 36px;
+}
