@@ -1,6 +1,7 @@
 body {
   color: #FF0000;
-   background-color: #EEEEEE;    /* Light gray */
+   background-color: #EEEEEE;
+   font-size: 45px;    /* Light gray */
 }
 h1 {
   font-size: 36px;
