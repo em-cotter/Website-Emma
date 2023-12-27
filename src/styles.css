@@ -1,7 +1,26 @@
 body {
   color: white;
    background-color: black;
-   font-size: 45px;    /* Light gray */
+   font-size: 45px;
+   font-family: 'Inter Tight', sans-serif;
+    /* Light gray */
+}
+html {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  background-color: black;
+   padding-top: 0px;
+   
+  
+  
+}
+
+p{
+ padding: 20px 10px;  /* Vertical  Horizontal */
 }
 /* The hero image */
 .hero-image {
@@ -54,6 +73,7 @@ color: white;
 padding: 16px;
 font-size: 40px;
 border: none;
+
 }
 /*dropdown <div> for positioning*/
 .dropdown{
@@ -80,11 +100,12 @@ text-decoration: none;
 display: block;
 font-size: 16px;
 
+
 }
 
 /*change link color on hover*/
 .dropdown-content a:hover{
-background-color: #ffb5b5;
+background-color: #a96654;
 color: black;
 }
 /*show dropdown on hover*/
@@ -95,23 +116,38 @@ color: black;
 /*
 Chnage backgriund color of dropdown button when content is shown*/
 .dropdown:hover .dropbtn{
-  color: #ffb5b5;
-}
-
-h1 {
-  font-size: 36px;
-  text-align: center;
-  background-color: black;
-   padding-top: 0px;
-  
-  
-}
-h1:hover{
   color: #a96654;
 }
-h2{
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.column{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container{
+  padding: 0 16px;
 
 }
-p{
- padding: 20px 10px;  /* Vertical  Horizontal */
+
+.container::after, .row::after{
+  content: "";
+  clear: both;
+  display: table;
 }
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
