@@ -3,24 +3,45 @@ body {
    background-color: #ffcbcb;
    font-size: 45px;    /* Light gray */
 }
-div.dropdown {
-  position: relative;
-  display: inline-block;
+.topline{
   
+}
+div.dropdown {
+  
+     /* display: inline;    */
+   
+   
+   text-align: right;
+  
+}
+.dropdown:hover{
+ 
 }
 
 div.dropdown-content {
-  display: none;
-  position: absolute;
+   display: none;
+   text-align: right;
+    position: absolute; 
+    right: 0px;  
+    
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 50px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
 }
+.content{
+  text-align: right;
+}
+
+p.content:hover {
+  background-color: #ffcbcb;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
+  
+  
 }
 h1 {
   font-size: 36px;
