@@ -1,7 +1,6 @@
 body {
   color: white;
    background-color: black;
-   font-size: 45px;
    font-family: 'Inter Tight', sans-serif;
     /* Light gray */
 }
@@ -18,9 +17,13 @@ h1 {
   
   
 }
+h2{
+  padding-left: 10px;
+}
 
 p{
- padding: 20px 10px;  /* Vertical  Horizontal */
+ padding: 20px 10px; 
+ font-size: 25px;
 }
 /* The hero image */
 .hero-image {
