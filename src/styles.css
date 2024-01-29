@@ -19,12 +19,17 @@ h1 {
 }
 h2{
   padding-left: 10px;
+  font-size: 40px;
+
 }
 
 p{
  padding: 20px 10px; 
- font-size: 25px;
+ font-size: 22px;
+ text-align: left;
 }
+
+
 
 /* The hero image */
 .hero-image {
@@ -179,3 +184,17 @@ Chnage backgriund color of dropdown button when content is shown*/
 }
 
 
+.textadventureParent{
+  text-align: center;
+}
+ .textadventureButton{
+  background-color: #a96654; /* Green */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+ }
