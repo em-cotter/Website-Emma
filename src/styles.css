@@ -25,6 +25,7 @@ p{
  padding: 20px 10px; 
  font-size: 25px;
 }
+
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -176,4 +177,5 @@ Chnage backgriund color of dropdown button when content is shown*/
     display: block;
   }
 }
+
 
