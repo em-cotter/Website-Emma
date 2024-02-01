@@ -79,11 +79,24 @@ p{
 .dropbtn{
 background-color: black;
 color: white;
+padding-top: 5px;
 padding: 16px;
 font-size: 40px;
 border: none;
 
+
 }
+.dropbtn:active{
+  outline: none;
+    border: 1px solid black;
+    box-shadow: none;
+  
+}
+.dropbtn:focus{ 
+  outline-color: black;
+  outline-style: none; 
+}
+
 /*dropdown <div> for positioning*/
 .dropdown{
 position: relative;
@@ -183,7 +196,9 @@ Chnage backgriund color of dropdown button when content is shown*/
   }
 }
 
-
+.textadventureContainer{
+  
+}
 .textadventureParent{
   text-align: center;
 }
@@ -198,3 +213,6 @@ Chnage backgriund color of dropdown button when content is shown*/
   display: inline-block;
   font-size: 18px;
  }
+ .instructions div{
+  text-align: center;
+}
