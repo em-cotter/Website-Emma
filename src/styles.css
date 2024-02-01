@@ -216,3 +216,19 @@ Chnage backgriund color of dropdown button when content is shown*/
  .instructions div{
   text-align: center;
 }
+.textGenerativ{
+  display: none;
+}
+.containerGenerativ:hover .textGenerativ{
+display: block;
+text-align: center;
+color: #a96654;
+font-size: 19px;
+}
+
+.textTextadventure{
+  display: none;
+}
+.textadventureContainer:hover .textTextadventure{
+  display: block;
+}
