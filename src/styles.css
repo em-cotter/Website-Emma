@@ -2,6 +2,7 @@ body {
   color: white;
    background-color: black;
    font-family: 'Inter Tight', sans-serif;
+  
     /* Light gray */
 }
 html {
@@ -26,7 +27,7 @@ h2{
 p{
  padding: 20px 10px; 
  font-size: 22px;
- text-align: left;
+
 }
 
 
@@ -196,9 +197,7 @@ Chnage backgriund color of dropdown button when content is shown*/
   }
 }
 
-.textadventureContainer{
-  
-}
+
 .textadventureParent{
   text-align: center;
 }
@@ -222,13 +221,34 @@ Chnage backgriund color of dropdown button when content is shown*/
 .containerGenerativ:hover .textGenerativ{
 display: block;
 text-align: center;
-color: #a96654;
+color: white;
 font-size: 19px;
 }
 
 .textTextadventure{
   display: none;
 }
-.textadventureContainer:hover .textTextadventure{
+.BlockTextadventure h2{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  opacity: 0.7;
+}
+
+.BlockGenerativ:hover{
+text-align: center;
+opacity: 0.5;
+}
+.BlockTextadventure:hover{
+  text-align: center;
+}
+.BlockTextadventure:hover .textTextadventure{
   display: block;
+  color: white;
+  text-align: center;
+}
+.BlockTextadventure:hover p{
+  text-align: center;
+}
+.BlockTextadventure:hover h2{
+  opacity: 1.0;
 }
