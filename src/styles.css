@@ -215,40 +215,39 @@ Chnage backgriund color of dropdown button when content is shown*/
  .instructions div{
   text-align: center;
 }
-.textGenerativ{
-  display: none;
-}
-.containerGenerativ:hover .textGenerativ{
-display: block;
-text-align: center;
-color: white;
-font-size: 19px;
+
+
+
+
+
+
+
+
+
+
+.BlockGenerativ{
+  opacity: 0.5;
+  padding: 40px;
 }
 
-.textTextadventure{
-  display: none;
+.BlockTextadventure{
+  opacity: 0.5;
+  padding: 40px;
 }
-.BlockTextadventure h2{
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-  opacity: 0.7;
+.BlockMe{
+  opacity: 0.5;
+  padding: 40px;
 }
-
 .BlockGenerativ:hover{
-text-align: center;
-opacity: 0.5;
+  opacity: 1.0;
 }
 .BlockTextadventure:hover{
-  text-align: center;
-}
-.BlockTextadventure:hover .textTextadventure{
-  display: block;
-  color: white;
-  text-align: center;
-}
-.BlockTextadventure:hover p{
-  text-align: center;
-}
-.BlockTextadventure:hover h2{
   opacity: 1.0;
+}
+
+.BlockMe:hover{
+  opacity: 1.0;
+}
+.divider{
+   border-top: 0.2px solid #a96654;
 }
